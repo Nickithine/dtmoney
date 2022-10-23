@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="React" src="https://img.shields.io/badge/REACT-FRAMEWORK-blue?style=for-the-badge&logo=react">
+  <img alt="Gitflow" src="https://img.shields.io/badge/GITFLOW-WORKFLOW-red?style=for-the-badge&logo=git">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=HTML5">
+  <img alt="CSS3" src="https://img.shields.io/badge/css-3-blue?style=for-the-badge&logo=css3">
+  <img alt="STATUS" src="https://img.shields.io/badge/status-desenvolvimento-gre?style=for-the-badge&logo=loading">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href="#-projeto-de-aprendizado">Sobre</a> •
+<a href="#-status-do-projeto">Status do Projeto</a> •
+<a href="#-tecnologias-utilizadas">Tecnologias Utilizadas</a> •
+<a href="#-pré-requisitos">Pré Requisitos</a> •
+<a href="#-acesso-ao-projeto">Acesso ao projeto</a> •
+<a href="#-autora">Autora</a>
+</p>
 
-## Available Scripts
+# 📝 Entrega semana 8 - Projeto de Transações (dtmoney)
 
-In the project directory, you can run:
+Projeto de transações que adicionam entradas e saídas, efetua o calculo do valor total das transações adicionadas pelo botão de "Nova transação".
 
-### `npm start`
+Utiliza uma API ficticia para trabalhar os dados, utilizando o miragejs. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://user-images.githubusercontent.com/71510886/197367648-83711a3a-2166-4567-bab7-6444ac28671c.png">
+<img src="https://user-images.githubusercontent.com/71510886/197367673-f023ab31-39c5-4b41-b005-fafee00026a9.png">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# ▶️ Status do Projeto
 
-### `npm test`
+🚧 Projeto em construção 🚧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To do:
 
-### `npm run build`
+- ``Adicionar rota de exclusão para as transações``
+- ``Adicionar rota de edição das transações``
+- ``Utilização do hook form``
+- ``Verificar persistencia dos dados``
+- ``Adicionar páginas exclusivas para entradas e saídas``
+- ``Inicializar com valores zerados, aplicar mensagem de 'transações vazias'``
+- ``Testes unitários``
+- ``Docker``
+- ``Publicação``
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# ✅ Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação
 
-### `npm run eject`
+Você precisará ter apenas o [NodeJS](https://nodejs.org) instalado na sua máquina, e após isso, clonar este repositório:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+  $ git clone https://github.com/Nickithine/domimoney.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Depois disso acesse a pasta que você clonou e instale as dependências executando o seguinte comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+  $ yarn # ou npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Executando a aplicação
 
-## Learn More
+Abra o seu editor de textos e execute o comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+  $ yarn start # ou npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 💻 Tecnologias utilizadas
+
+- ``VsCode``
+- ``React``
+- ``HTML 5``
+- ``Gitflow``
+
+# 📂 Acesso ao projeto
+
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/Nickithine/domimoney).
+
+# 🌟 Autora
+
+[<img style="border-radius: 50%" src="https://user-images.githubusercontent.com/71510886/190930449-4b8b714e-4bba-4635-9ded-0ac172017eba.jpg" width=115><br><sub>Dominique Ithina</sub>](https://github.com/Nickithine)
